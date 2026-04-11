@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ## Telco Churn – End-to-End ML Project
 ### Purpose
 
