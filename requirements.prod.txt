@@ -1,0 +1,19 @@
+# Web & API
+fastapi==0.115.0
+pydantic==2.8.2
+uvicorn==0.30.5
+gunicorn==22.0.0
+
+# Core ML Inference (Minimal)
+numpy==1.26.4
+pandas==2.1.4
+xgboost==3.0.3
+scikit-learn==1.5.2
+joblib==1.4.2
+
+# MLOps & Monitoring
+mlflow==2.14.1
+python-dotenv==1.0.1
+
+# UI (Only if you MUST keep Gradio in the same container)
+gradio

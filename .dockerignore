@@ -1,0 +1,35 @@
+# Python bytecode
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Git and Metadata
+.git/
+.gitignore
+.dockerignore
+.vscode/
+.idea/
+
+# Local Data and Notebooks
+# (Data should be pulled from S3/DVC, not baked into the image)
+data/*.csv
+data/*.parquet
+*.ipynb
+.ipynb_checkpoints/
+
+# MLflow local runs (huge folders)
+mlruns/
+mlartifacts/
+
+# Logs and OS files
+*.log
+.DS_Store
+
+notebooks/
+
+requirements.txt/
