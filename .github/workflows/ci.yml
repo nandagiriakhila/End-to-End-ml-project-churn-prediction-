@@ -41,4 +41,4 @@ jobs:
 
       - name: Update ECS Service
         run: |
-          aws ecs update-service --cluster your-cluster-name --service your-service-name --force-new-deployment
+          aws ecs update-service --cluster telco-cluster --service telco-task-service-1ha9ylce --force-new-deployment
