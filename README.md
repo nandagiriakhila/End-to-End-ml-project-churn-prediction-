@@ -30,5 +30,5 @@ Build and ship a full machine-learning solution for predicting customer churn in
 - ECS service is updated (manually or via the workflow) to force a new deployment.
 - ALB health checks hit / on port 8000; once healthy, traffic is routed to the new task.
 - Users call POST /predict or open the Gradio UI at /ui via the ALB DNS.
-
+http://13.239.10.233:8000/ui/
 
